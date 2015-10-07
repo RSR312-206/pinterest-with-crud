@@ -1,0 +1,12 @@
+<img width= 80% height=80% src='<%=@pin.url%>'/>
+
+<h3>Comment:</h3>
+<div class='comment'>
+<%= @pin.comment %>
+</div>
+  <nav class='nav'>
+    <ul>
+      <li><a href='/pins/<%=@pin.id%>/edit'>edit</a></li>
+      <li><%= link_to 'Delete', @pin, method: :delete, data: {confirm: "Are you sure?"} %></li>
+    </ul>
+  </nav>

@@ -1,0 +1,10 @@
+<div class='new'>
+  <%= form_for @pin do |p| %>
+    <%= p.label "Picture Image" %>
+    <%= p.text_field :url %><br />
+    <%= p.label "Comment" %>
+    <%= p.text_field :comment %><br />
+    <%= p.submit "Save New Pin" %>
+  <% end %>
+</div>
+

@@ -1,0 +1,9 @@
+
+ <% @pins.each do |p| %>
+ <div class='pics'>
+  <img height=300 width=300 src='<%= p.url %>'>
+  <br>
+  <p class='comment'><%= p.comment %></p>
+  <a href='/pins/<%=p.id%>'>View</a><br>
+</div>
+  <% end %>

@@ -1,0 +1,77 @@
+@import "bourbon";
+* {
+  font-family: 'Bitter', serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+}
+h1 {
+  float: left;
+  padding: 10px;
+}
+
+.pics {
+  padding: 20px;
+  display: inline-block;
+}
+.comment {
+  width: 250px;
+  height: 50px;
+  background-color: lightgrey;
+  padding: 5px 5px;
+
+}
+.new_pin {
+  margin-top: 50px;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+.new {
+  padding: 5px;
+  border: solid black;
+  background-color: lightgrey;
+
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
